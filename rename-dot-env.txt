@@ -1,0 +1,27 @@
+SCARF_ANALYTICS=FALSE
+TAGS_CSV=../public
+VIDEO_DIR_PY=../public/videos
+THUMBS_DIR=../public/thumbnails
+GIF_DIR=../public/gifs
+INPUT_TAGS=../public/selected_tags.csv
+EXCLUSIONS=../public/exclusions.csv
+THUMBNAIL_URL_PREFIX=/thumbnails
+GIF_URL_PREFIX=
+IMAGE_DIR = /public/images
+VIDEO_DIR = /public/videos
+VIDEO_DIR_THUMBS = /public/thumbnails
+VIDEO_DIR_PREVIEW = /public/thumbnails/preview
+CORS_ORIGIN = http://localhost:3000
+MIN_VIDEO_DURATION = 1
+THUMBNAIL_RESOLUTION = 960:540
+GIF_RESOLUTION = 960:540
+GIF_FPS = 10
+GIF_DURATION = 2
+THUMBNAIL_TIMESTAMP = 0.1
+GIF_START_TIMESTAMP = 0.5
+APPLY_ANIMATED_OVERLAY = false
+AESTHETIC_EFFECTS = [
+  eq=contrast=1.2:brightness=0.05:saturation=1.3,
+  vignette=angle=PI/4,
+]
+NEXT_PUBLIC_VIDEOS_URL_PREFIX=
